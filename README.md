@@ -3,7 +3,9 @@ plantilla basica con nodejs- handelbars (hbs) y materialize 1.0.0 (completo) y a
 con mysql con mariadb-connector-nodejs.
 - Hay dos formas de acceso:
   * Una como api, mediante: myip:3000/api/(listado|crear|modificar|borrar|buscar).
+     Ejemplo: myip:3000/api/modificar/11
   * Otra como web, mediante: myip:3000/users/(listado|buscar).
+     Ejemplo: myip:3000/users/buscar/nombre_a_buscar
 
 Funcionamiento basico:
 ```ruby
